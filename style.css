@@ -1,0 +1,96 @@
+:root {
+  --White: hsl(0, 0%, 100%);
+  --Grey: hsl(0, 0%, 50%);
+  --Black: hsl(0, 0%, 7%);
+  --Yellow: hsl(47, 88%, 63%);
+}
+@import url("https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Inter:wght@100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+content {
+  margin: 0px 25px 0px 25px;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--Yellow);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: "Figtree", sans-serif;
+  font-size: 16px;
+}
+main {
+  background-color: white;
+  width: 330px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  border: 1px solid black;
+  padding: 0;
+  box-shadow: 7px 7px 5px black;
+}
+
+main img {
+  width: 290px;
+  height: 100;
+  margin: 20px auto;
+  border-radius: 10px;
+}
+main .lear {
+  background-color: var(--Yellow);
+  width: 80px;
+  padding: 5px;
+  text-align: center;
+  border-radius: 5px;
+  font-weight: 700;
+  font-size: 0.8em;
+  margin-bottom: 10px;
+}
+main .date {
+  font-size: 0.8em;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+h2 {
+  font-size: 1.2em;
+  margin-bottom: 15px;
+  font-weight: 700;
+}
+p {
+  color: var(--Grey);
+  font-weight: 500;
+  font-size: 0.8em;
+  margin-bottom: 20px;
+}
+.user {
+  display: flex;
+  margin: 25px 0;
+  align-items: center;
+}
+.user img {
+  width: 40px;
+  height: auto;
+  margin: 0 15px 0 0;
+}
+.user h4{
+    font-size: 0.9em;
+    font-weight: 700;
+}
+
+.attribution{
+    margin-top: 10px;
+    font-size: 11px;
+    text-align: center;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
+  }
